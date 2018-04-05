@@ -16,3 +16,6 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+Route
+  .get('/hw', 'GameController.index')
+  //.middleware(['auth'])
